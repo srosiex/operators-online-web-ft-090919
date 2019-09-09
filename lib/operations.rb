@@ -6,7 +6,8 @@ if speed >= 60
 else
   speed <= 40
   return true
-elsif speed 41..49
+else speed 41..49
+  puts false
 end
 
 end
@@ -16,3 +17,4 @@ end
 def not_safe?(speed)
 
 end
+
