@@ -6,7 +6,7 @@ if speed >= 60
 else
   speed <= 40
   return true
-
+elsif speed 41..49
 end
 
 end
