@@ -6,8 +6,8 @@ if speed >= 60
 else
   speed <= 40
   return true
-else speed 41..49
-  puts false
+else speed <40 && >50
+  return false
 end
 
 end
